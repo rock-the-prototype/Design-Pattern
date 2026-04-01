@@ -2,7 +2,7 @@
 
 Concise, visual, and practical explanations of software design patterns for architecture, prototyping, and implementation.
 
-The goal is to explain recurring design solutions in a way that is easy to understand, architecturally useful, and directly relevant for software development and prototyping. Each pattern should be described with a clear intent, a minimal diagram, and a short explanation of its internal logic. The focus is not on academic completeness, but on clarity, structure, and practical relevance.
+The goal is to explain recurring design solutions in a way that is easy to understand, architecturally useful, and directly relevant for software development and prototyping. Each pattern should be described with a clear intent, a minimal diagram, and a short explanation of its internal logic. The focus is on correct, trustfull design pattern supporting a clear understanding of the parttern goals, structure, and practical relevance.
 
 A design pattern is a proven, reusable solution to a recurring design problem in software. It does not prescribe one fixed implementation. Instead, it provides a structured way to think about responsibilities, interactions, and trade-offs in a system.
 
