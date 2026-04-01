@@ -43,3 +43,9 @@ This sequence diagram shows how the Facade Pattern handles a client request thro
 - The client sends a single request to the facade, which then coordinates several internal subsystem calls in the required order. 
 - Each subsystem returns its partial result to the facade instead of responding directly to the client. 
 - The facade combines these internal results and returns one consolidated response, hiding the underlying complexity from the client.
+
+You may use this content alongside the Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+You can check the license along with this work, see [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
+© 2026 Sascha Block / Rock the Prototype
