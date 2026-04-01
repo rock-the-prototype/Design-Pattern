@@ -21,3 +21,25 @@ flowchart LR
 - The facade delegates requests to the relevant subsystems behind the scenes.
 - This reduces outward complexity and stabilizes the external interface.
 - The internal structure may change without forcing every client to change with it.
+
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant F as Facade
+    participant A as Subsystem A
+    participant B as Subsystem B
+    participant D as Subsystem C
+
+    C->>F: Request
+    F->>A: Partial call 1
+    A-->>F: Result 1
+    F->>B: Partial call 2
+    B-->>F: Result 2
+    F->>D: Partial call 3
+    D-->>F: Result 3
+    F-->>C: Consolidated response
+```
+This sequence diagram shows how the Facade Pattern handles a client request through one central entry point. 
+- The client sends a single request to the facade, which then coordinates several internal subsystem calls in the required order. 
+- Each subsystem returns its partial result to the facade instead of responding directly to the client. 
+- The facade combines these internal results and returns one consolidated response, hiding the underlying complexity from the client.
